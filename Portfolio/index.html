@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darryl Mokwele | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="hero">
+    <div class="container">
+      <h1>Hi, I'm <span>Darryl Mokwele</span></h1>
+      <div class="p">
+      <p>Front-End Web Developer | Beginner Game Developer</p>
+      <p>Creating entertaining websites and exploring the world of game development.</p>
+    </div>
+      <div class="cta">
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="#contact" class="btn btn-secondary">Let’s Collaborate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer dedicated to crafting entertaining websites that engage users.
+        As a beginner in game development, I’m expanding my skills and exploring new ways to create interactive experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="slideshow">
+        <div class="project-card mySlides" >
+          <img src="image-equilibrium.jpg" alt="Project 1" class="logo">
+          <h3>Equilibrium NFT Card</h3>
+          <p>This project is a visually stunning NFT card component showcasing a digital collectible, 
+            complete with metadata like the title, description, pricing in cryptocurrency, time left for purchase, 
+            and creator details. It emphasizes a clean and modern design, with a dark theme and glowing accents that 
+            make the card's content stand out.</p>
+            <br>
+          <a href="https://darrylmokwele.github.io/Preview-card-Solution/" class="link" target="_blank">Live Demo</a>
+         
+        </div>
+        <div class="project-card mySlides">
+          <img src="Screenshot 2024-12-05 153100.png" alt="Project 2" class="logo">
+          <h3>Project Boost</h3>
+          <p>Project Boost is a physics-based 3D game where players control a rocket navigating through an obstacle-filled environment. 
+            The game challenges players to maneuver the rocket skillfully, avoiding collisions with structures and aiming for specific targets to progress. 
+            With a minimalistic design, 
+            it emphasizes precise controls and strategic movement, providing an engaging and dynamic experience.</p>
+          <br>
+            <a href="https://sharemygame.com/@DeeDeveloper/project-boost-v1" class="link" target="_blank">Live Demo</a>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      
+      </div>
+    </div>
+    <br>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Got a project or idea? Let’s work together!</p>
+      <form>
+       
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Darryl Mokwele. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+   
+    
+
+  <script src="script.js"></script>
+</body>
+</html>
